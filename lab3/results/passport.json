@@ -1,0 +1,19 @@
+{
+  "variant": 20,
+  "n": [
+    60
+  ],
+  "seed": 2026,
+  "resultKind": "SCALAR",
+  "referenceChecksum": {
+    "60": 15563080527464.428
+  },
+  "decompositionLarge": "гілки y1, y2, Y3 (великі незалежні підвирази DAG); x — точка синхронізації",
+  "decompositionMedium": "Y3 = A2*C2-B2 ділиться на блоки рядків [begin,end) (BLOCK)",
+  "clientBaselineMs": {
+    "60": 109.43300003418699
+  },
+  "serverBaselineMs": "див. results/local_server.csv (L-S)",
+  "payloadMode": "P (parameters: variant, n, seed)",
+  "notes": "Python, core/part_a.py з ЛР №2 без змін; REST=FastAPI+httpx, gRPC=grpcio"
+}
